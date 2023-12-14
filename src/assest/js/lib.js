@@ -11,3 +11,15 @@ function Render(obj, root) {
 
     root.appendChild(el)
 }
+
+function Compiler(params) {
+    // TODO 将模板编译为树形结构
+    return {
+        tag: 'div',
+        children: [
+            {
+                tag: 'span',children: 'hello world'
+            }
+        ]
+    }
+}
