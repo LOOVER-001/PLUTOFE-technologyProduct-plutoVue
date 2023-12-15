@@ -23,3 +23,11 @@ function Compiler(params) {
         ]
     }
 }
+
+/**
+ * warn函数
+ * @param {框架错误信息} params 
+ */
+function warn(params) {
+    console.warn(params)
+}

@@ -1,8 +1,12 @@
+/**
+ * Pluto：VuePluto全局变量
+ */
+
 const html =
 '<div>'+
     '<span>hello world<span/>'+
 '<div/>'
 
-const obj = Compiler(html)
+const obj = Pluto.Compiler(html)
 
-Render(obj, document.body)
+Pluto.Render(obj, document.body)
